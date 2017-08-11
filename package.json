@@ -1,0 +1,30 @@
+{
+  "name": "pyslidegrabber",
+  "version": "1.0.0",
+  "description": "This is an api that lets you grab the slides from SlideShare website without having to login or SignedUp.This grabs all the slides from the link that is given by you and stores to given destination.Important thing in this is, specifying the link of the slides which are to be downloaded/grabbed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "pyslidegrabber"
+  },
+  "keywords": [
+    "SlideShare",
+    "Slideshare",
+    "grabber",
+    "grab",
+    "slides",
+    "from",
+    "slide",
+    "share",
+    "slides",
+    "ppt",
+    "download",
+    "slides",
+    "pyslideshare"
+  ],
+  "author": "Pavan Yekabote",
+  "license": "ISC"
+}
