@@ -24,7 +24,7 @@ const getFromHttps = function(httplink, callback){
 			});
 
 			res.on('end', ()=>{
-
+				console.log("\nSource Grabbing Completed..Heading to grab to localdestination\n")
 				callback(str);
 			});
 	}).on('error',(err)=>{

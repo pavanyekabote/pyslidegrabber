@@ -3,16 +3,14 @@ module.exports = {
 	QUALITY:{
 		HIGH : "data-full",
 		MEDIUM : "data-normal",
-		LOW : "data-low"
+		LOW : "data-small"
 	},
 
 	REQTYPE:{
 		FILE : "file",
 		HTTPS : 'https'
-	},
-
-	OUTLOCATION: {
-		CURRENT : './'
 	}
+
+	
 }
 

@@ -11,7 +11,7 @@ function grepLinks(datasrclink, callback, options ){
 			
 			grabber.getFromHttps(datasrclink, (result)=>{
 				parseToArrayOfLinks(result,callback, options);
-			})	: 
+			})	: 	
 			
 			( options.reqType === constants.REQTYPE.FILE ) ?
 			

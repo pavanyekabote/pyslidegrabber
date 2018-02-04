@@ -1,8 +1,16 @@
 'use strict';
-var https = require('https');
-const load = require('./utils/load');
 
-load.pygrabber("https://www.slideshare.net/poonampkc/unit-3-11466487",(err, res)=>{
+/**
+	Package		: pyslidegrabber
+	Description	: Grabs all slides from a particular link of SlideShare website .
+	Author		: Pavan Yekabote 
+	Date		: 11/08/2017
 
-	console.log(res);
-});
+*/
+
+const pygrabber = require('./utils/load');
+const constants = require('./utils/const');
+
+
+
+module.exports = {pygrabber,constants};
