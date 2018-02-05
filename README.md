@@ -1,8 +1,8 @@
-# pyslidegrabber
+## pyslidegrabber
 NodeJS Project to download slides from slideshare website without having to login.
 
 
-#Sample Usage Code
+# Sample Usage Code
 <pre>
 const load = require('./pyslidegrabber');
 
@@ -21,13 +21,13 @@ load.pygrabber("https://www.slideshare.net/CBInsights/emerging-technology-trends
 },options);
 </pre>
 
-#parameters of pygrabber 
-1. URL of Slides in Slideshare website 
-2.Location to save the downloaded slides
-3.Options for quality of the slide.
+# parameters of pygrabber<br /> 
+1.URL of Slides in Slideshare website  <br />
+2.Location to save the downloaded slides <br />
+3.Options for quality of the slide. <br />
 
-#Quality Constants
- constants.QUALITY.HIGH
- constants.QUALITY.MEDIUM
+# Quality Constants <br />
+ constants.QUALITY.HIGH <br/>
+ constants.QUALITY.MEDIUM <br/>
  constants.QUALITY.LOW
  
